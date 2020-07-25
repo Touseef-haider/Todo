@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    background-color: cornsilk;
+}
+.Container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.Contents{
+    display: grid;
+    justify-content: center;
+}
+.Input input{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    font-size: x-large;
+}
+.Input input:hover{
+    width: 420px;
+    height: 40px;
+    text-align: center;
+}
+.Button button{
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: grey;
+    border: 1px solid white;
+    font-size: x-large;
+}
+.Button button:hover{
+    width: 150px;
+    height: 35px;
+    color: black;
+    background-color:white;
+}
+#button{
+    width: 60px;
+    height: 25px;
+    color: white;
+    border: 1px solid white;
+    background-color: grey  ;
+}
+#button:hover{
+    width: 65px;
+    height: 25px;
+    color: grey;
+    background-color:white;
+}
+.Division{
+    margin: 5px;
+}
+.Division span{
+    font-size: xx-large;
+}
